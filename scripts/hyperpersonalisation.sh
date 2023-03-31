@@ -2,4 +2,4 @@
 
 direnv allow . && eval "\$(direnv export bash)"
 
-python -m hyperpersonalisation.trainer config/hyperpersonalisation_all.json
+python -m hyperpersonalisation.trainer configs/hyperpersonalisation_all.json
