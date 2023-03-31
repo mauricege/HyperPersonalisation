@@ -2,4 +2,4 @@
 
 direnv allow . && eval "\$(direnv export bash)"
 
-python -m hyperpersonalisation.trainer config/wav2vec.json
+python -m hyperpersonalisation.trainer configs/wav2vec.json
