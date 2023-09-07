@@ -38,7 +38,5 @@
     "num_labels": 1,
     "problem_type": "regression",
     "print_num_parameters": true,
-    "metadata_columns": [
-        
-    ]
+    "metadata_columns": []
 }
