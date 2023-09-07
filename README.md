@@ -40,4 +40,4 @@ to train the personalisation components.
 
 
 ## Contact
-Please direct any questions or requests to Maurice Gercuk (maurice.gerczuk at informatik.uni-augsburg.de).
+Please direct any questions or requests to Maurice Gerczuk (maurice.gerczuk at informatik.uni-augsburg.de).
