@@ -26,15 +26,15 @@
               modules = [
                 ({pkgs, config, ... }: {
                   # https://devenv.sh/reference/options/
-                  packages = [
-                    pkgs.blas.dev
-                    pkgs.gcc.out
-                    pkgs.glibc
-                    pkgs.lapack.dev
-                    pkgs.libsndfile.out
-                    pkgs.llvm.dev
-                    pkgs.stdenv.cc.cc.lib
-                    pkgs.zlib
+                  packages = with pkgs; [
+                    alejandra
+                    blas.dev
+                    gcc-unwrapped.out
+                    lapack.dev
+                    libsndfile.out
+                    llvm.dev
+                    stdenv.cc.cc.lib
+                    zlib
                   ];
                   languages.python = {
                     enable = true;
