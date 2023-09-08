@@ -1,4 +1,7 @@
+
 # HyperPersonalisation
+[![DOI](https://zenodo.org/badge/621872396.svg)](https://zenodo.org/badge/latestdoi/621872396)
+
 
 This repository contains code for zero-shot, metadata conditioned personalisation of wav2vec speech models. Personalisation is achieved through an adaptation of [hyperformers](https://github.com/rabeehk/hyperformer) - relevant reused code is assembled in `./hyperformer`.
 
